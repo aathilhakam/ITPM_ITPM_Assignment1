@@ -1,5 +1,5 @@
 const { test, expect } = require('@playwright/test');
-// 1. Convert a short daily greeting phrase
+
 test('Pos_Fun_0001 - daily greeting phrase', async ({ page }) => {
   await page.goto('https://tamil.changathi.com/');
   const inputBox = page.locator('textarea').first();
